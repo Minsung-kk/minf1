@@ -160,6 +160,13 @@ top5_acc: 0.7925
 mean_class_accuracy: 0.1042
 
 sp4:
-eopch=25, lr= 0.001, batch size=4
+eopch=20, lr= 0.001, batch size=4
+top1_acc: 0.2866
+top5_acc: 0.7842
+mean_class_accuracy: 0.1192
 
+eopch=25, lr= 0.001, batch size=4
+top1_acc: 0.3054
+top5_acc: 0.7524
+mean_class_accuracy: 0.1218
 '''
