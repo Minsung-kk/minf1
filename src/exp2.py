@@ -89,26 +89,88 @@ create_test_annot(annot_dir)
 
 '''
 test - by loading pth files
-sp0: 
-epoch=10, lr= 0.001, batch size=4
+sp0:
+batch size=4
+lr = 0.01
+epoch = 25
+top1_acc: 0.0884
+top5_acc: 0.6863
+mean_class_accuracy: 0.0305
+
+epoch = 50
+top1_acc: 0.2028
+top5_acc: 0.5849
+mean_class_accuracy: 0.1429
+
+epoch = 75
+top1_acc: 0.0000
+top5_acc: 0.5271
+mean_class_accuracy: 0.0000
+
+epoch = 100
+top1_acc: 0.0000
+top5_acc: 0.6639
+mean_class_accuracy: 0.0000
+
+
+lr = 0.001 
+epoch=10
 top1_acc: 0.2783
 top5_acc: 0.7571
 mean_class_accuracy: 0.1138
 
-epoch=15, lr= 0.001, batch size=4
+epoch=15
 top1_acc: 0.3208
 top5_acc: 0.7465
 mean_class_accuracy: 0.1180
 
-epoch=20, lr= 0.001, batch size=4
+epoch=20
 top1_acc: 0.3031
 top5_acc: 0.7488
 mean_class_accuracy: 0.1101
 
-epoch=100, lr= 0.001, batch size=4
+epoch=100
 top1_acc: 0.3455
 top5_acc: 0.7465
 mean_class_accuracy: 0.1235
+
+
+lr= 0.0001
+epoch=20
+top1_acc: 0.2170
+top5_acc: 0.7005
+mean_class_accuracy: 0.0902
+
+epoch=50
+top1_acc: 0.2417
+top5_acc: 0.7382
+mean_class_accuracy: 0.0939
+
+lr= 0.00001
+epoch=25
+top1_acc: 0.0024
+top5_acc: 0.6521
+mean_class_accuracy: 0.0015
+
+epoch=50
+top1_acc: 0.0389
+top5_acc: 0.6757
+mean_class_accuracy: 0.0240
+
+epoch=75
+top1_acc: 0.1038
+top5_acc: 0.6639
+mean_class_accuracy: 0.0640
+
+epoch=100
+top1_acc: 0.0000
+top5_acc: 0.6722
+mean_class_accuracy: 0.0000
+
+epoch=200
+top1_acc: 0.0861
+top5_acc: 0.6651
+mean_class_accuracy: 0.0531
 
 
 sp1:
